@@ -1,0 +1,4 @@
+export const CATEGORY_RESOURCE = "CATEGORY";
+export const ITEM_RESOURCE = "ITEM_RESOURCE";
+export const ORDER_RESOURCE = "ORDER_RESOURCE";
+export const USER_RESOURCE = "USER_RESOURCE";
