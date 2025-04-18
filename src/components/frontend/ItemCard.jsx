@@ -1,6 +1,5 @@
 "use client";
-import CartIcon from "@/icons/CartIcon";
-import HeartIcon from "@/icons/HeartIcon";
+import { CartIcon, HeartIcon } from "@/Icons/indexIcon";
 import { addToCart } from "@/redux/slices/cart";
 import Image from "next/image";
 import { useState } from "react";
@@ -41,7 +40,11 @@ function ItemCard({ itemCard }) {
           <button
             type="button"
             disabled={cart.ids.includes(newItemCard.id)}
-            className={`${cart.ids.includes(newItemCard.id) ? "bg-[#642f21] text-white" : "bg-[#f7be27] text-black"} cursor-pointer absolute right-0 top-5 opacity-0 p-2 rounded-md flex items-center gap-2 transition-all duration-500 group-hover:opacity-100 group-hover:top-0`}
+            className={`${
+              cart.ids.includes(newItemCard.id)
+                ? "bg-[#642f21] text-white"
+                : "bg-[#f7be27] text-black"
+            } cursor-pointer absolute right-0 top-5 opacity-0 p-2 rounded-md flex items-center gap-2 transition-all duration-500 group-hover:opacity-100 group-hover:top-0`}
             onClick={() => {
               if (user) {
                 dispatch(addToCart(newItemCard.id));

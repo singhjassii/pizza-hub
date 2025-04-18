@@ -1,7 +1,11 @@
-import CategoryIcon from "@/Icons/CategoryIcon";
-import FoodItemsIcon from "@/Icons/FoodItemsIcon";
 import { MinusIcon } from "lucide-react";
-import { HomeIcon, OrdersIcon, UserIcon } from "../../Icons/indexIcon";
+import {
+  CategoryIcon,
+  FoodItemsIcon,
+  HomeIcon,
+  OrdersIcon,
+  UserIcon,
+} from "../../Icons/indexIcon";
 
 const menu = [
   {
