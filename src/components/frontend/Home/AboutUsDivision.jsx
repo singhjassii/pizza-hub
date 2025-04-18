@@ -1,6 +1,4 @@
-import DeliveryIcon from "@/icons/DeliveryIcon";
-import FoodIcon from "@/icons/FoodIcon";
-import PizzaIcon from "@/icons/PizzaIcon";
+import { DeliveryIcon, FoodIcon, PizzaIcon } from "@/Icons/indexIcon";
 
 function AboutUsDivision() {
   return (

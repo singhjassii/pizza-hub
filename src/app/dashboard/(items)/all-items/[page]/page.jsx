@@ -7,7 +7,6 @@ async function AllItems({ params, searchParams }) {
   const { page } = await params;
   const { limit = 10, search } = await searchParams;
   const data = await getRows(ITEM_RESOURCE, page, limit, search);
-  console.log({ data });
   const softDelete = await softDeleteRows(ITEM_RESOURCE, "all-items");
   return (
     <DataTable

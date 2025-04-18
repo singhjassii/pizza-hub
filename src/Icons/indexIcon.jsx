@@ -8,6 +8,7 @@ import BalanceIcon from "./BalanceIcon";
 import BannerIcon from "./BannerIcon";
 import BiometricIcon from "./BiometricIcon";
 import CartIcon from "./CartIcon";
+import CategoryIcon from "./CategoryIcon";
 import CheckIcon from "./CheckIcon";
 import ChevronDownIcon from "./ChevronDownIcon";
 import ChevronLeftIcon from "./ChevronLeftIcon";
@@ -24,6 +25,7 @@ import ExclamationMarkIcon from "./ExclamationMarkIcon";
 import EyeIcon from "./EyeIcon";
 import FAQIcon from "./FAQIcon";
 import FoodIcon from "./FoodIcon";
+import FoodItemsIcon from "./FoodItemsIcon";
 import GroupIcon from "./GroupIcon";
 import HamburgerIcon from "./HamburgerIcon";
 import HeartIcon from "./HeartIcon";
@@ -63,6 +65,7 @@ export {
   BannerIcon,
   BiometricIcon,
   CartIcon,
+  CategoryIcon,
   CheckIcon,
   ChevronDownIcon,
   ChevronLeftIcon,
@@ -79,6 +82,7 @@ export {
   EyeIcon,
   FAQIcon,
   FoodIcon,
+  FoodItemsIcon,
   GroupIcon,
   HamburgerIcon,
   HeartIcon,
