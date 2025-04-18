@@ -1,6 +1,5 @@
 "use client";
-import CartIcon from "@/icons/CartIcon";
-import HamburgerIcon from "@/Icons/HamburgerIcon";
+import { CartIcon, HamburgerIcon } from "@/Icons/indexIcon";
 import { userExists } from "@/redux/slices/user";
 import { UserIcon } from "lucide-react";
 import Image from "next/image";

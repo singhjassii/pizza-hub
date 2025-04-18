@@ -1,7 +1,9 @@
-import DeliveryIcon from "@/icons/DeliveryIcon";
-import FoodIcon from "@/icons/FoodIcon";
-import IcecreamIcon from "@/icons/IcecreamIcon";
-import PizzaIcon from "@/icons/PizzaIcon";
+import {
+  DeliveryIcon,
+  FoodIcon,
+  IcecreamIcon,
+  PizzaIcon,
+} from "@/Icons/indexIcon";
 import Image from "next/image";
 
 function HearPizzaContainer() {
